@@ -180,7 +180,7 @@ if __name__ == '__main__':
     checkReq()
     checkUpdate()
     Thread(target=cleaner, daemon=True).start()
-    site = input()
+    site = input("Enter site to attack: ")
     with ThreadPoolExecutor(max_workers=threads) as executor:
         future_tasks = [executor.submit(mainth(site)) for _ in range(threads)]
         for task in as_completed(future_tasks):
