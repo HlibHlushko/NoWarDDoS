@@ -107,9 +107,11 @@ def mainth(site):
         logger.info("GET RESOURCES FOR ATTACK")
         host = choice(HOSTS)
         content = scraper.get(host).content
+        content_from_file = './targets.json'
         if content:
             try:
-                data = json.loads(content)
+              with open(content_from_file, 'r') as f:
+                data = json.load(f)
             except json.decoder.JSONDecodeError:
                 logger.info('Host {} has invalid format'.format(host))
                 sleep(5)

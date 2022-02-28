@@ -1,0 +1,87 @@
+{
+  "site": {
+    "id": 10,
+    "url": "https://tinkoff.ru",
+    "need_parse_url": 1,
+    "page": "https://tinkoff.ru",
+    "page_time": 0,
+    "atack": 1
+  },
+  "proxy": [
+    {
+      "id": 24,
+      "ip": "gw-snkrs.ntnt.io:5959",
+      "auth": "1DCCEH8W-cc-ru-sid-536701:pas1oXlo"
+    },
+    {
+      "id": 17,
+      "ip": "hproxy.site:11874",
+      "auth": "PyD7Ah:fun5GEh1YZ5e"
+    },
+    {
+      "id": 21,
+      "ip": "dproxy.site:11877",
+      "auth": "ZeaUv6:HAn4Ag5KUbAT"
+    },
+    {
+      "id": 41,
+      "ip": "gw-snkrs.ntnt.io:5959",
+      "auth": "1DCCEH8W-cc-ru-sid-795141:pas1oXlo"
+    },
+    {
+      "id": 7,
+      "ip": "dproxy.site:11864",
+      "auth": "ZAaYru:aS7heN3uHYp1"
+    },
+    {
+      "id": 48,
+      "ip": "gw-snkrs.ntnt.io:5959",
+      "auth": "1DCCEH8W-cc-ae-sid-142238:pas1oXlo"
+    },
+    {
+      "id": 29,
+      "ip": "gw-snkrs.ntnt.io:5959",
+      "auth": "1DCCEH8W-cc-ru-sid-164674:pas1oXlo"
+    },
+    {
+      "id": 11,
+      "ip": "fproxy.site:11868",
+      "auth": "peF9YM:FEa5yf3aM5aD"
+    },
+    {
+      "id": 53,
+      "ip": "gw-snkrs.ntnt.io:5959",
+      "auth": "1DCCEH8W-cc-ae-sid-505258:pas1oXlo"
+    },
+    {
+      "id": 56,
+      "ip": "gw-snkrs.ntnt.io:5959",
+      "auth": "1DCCEH8W-cc-ae-sid-234691:pas1oXlo"
+    },
+    {
+      "id": 37,
+      "ip": "gw-snkrs.ntnt.io:5959",
+      "auth": "1DCCEH8W-cc-ru-sid-926254:pas1oXlo"
+    },
+    {
+      "id": 79,
+      "ip": "84.54.28.199:51337",
+      "auth": "kAgPCqba:8pQt1Xa3"
+    },
+    {
+      "id": 67,
+      "ip": "45.11.23.26:478803",
+      "auth": "kAgPCqba:8pQt1Xa"
+    },
+    {
+      "id": 3,
+      "ip": "hproxy.site:11858",
+      "auth": "Us7as5:UcTYk5YNmEg2"
+    },
+    {
+      "id": 31,
+      "ip": "gw-snkrs.ntnt.io:5959",
+      "auth": "1DCCEH8W-cc-ru-sid-613460:pas1oXlo"
+    }
+  ]
+}
